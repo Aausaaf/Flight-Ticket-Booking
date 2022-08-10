@@ -43,7 +43,7 @@ const getAllbooks = async(req, res) => {
 const getBook = async(req, res) => {
     try {
         const title = req.params.title;
-        const book = await Book.findById(title);
+        const book = await Book.find({Book_name:title});
         if (!book) {
             return res.status(400).send({message: 'Book does not exist'});
         }

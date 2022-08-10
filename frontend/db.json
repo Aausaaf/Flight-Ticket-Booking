@@ -1,0 +1,118 @@
+{
+  "array": [
+    {
+      "id": 1,
+      "from": "patna",
+      "to": "delhi",
+      "arrival": 10,
+      "departure": 11,
+      "flight_name": "Boing787"
+    },
+    {
+      "id": 2,
+      "from": "patna",
+      "to": "kolkata",
+      "arrival": 11,
+      "departure": 12,
+      "flight_name": "Boing98"
+    },
+    {
+      "id": 3,
+      "from": "delhi",
+      "to": "kolkata",
+      "arrival": 2,
+      "departure": 3,
+      "flight_name": "Indian_plane"
+    },
+    {
+      "id": 4,
+      "from": "mumbai",
+      "to": "delhi",
+      "arrival": 4,
+      "departure": 5,
+      "flight_name": "american_plane"
+    },
+    {
+      "id": 5,
+      "from": "delhi",
+      "to": "bangluru",
+      "arrival": 13,
+      "departure": 14,
+      "flight_name": "england_plane"
+    },
+    {
+      "id": 6,
+      "from": "bangaluru",
+      "to": "patna",
+      "arrival": 14,
+      "departure": 15,
+      "flight_name": "saudi_plane"
+    },
+    {
+      "id": 7,
+      "from": "kolkata",
+      "to": "delhi",
+      "arrival": 15,
+      "departure": 5,
+      "flight_name": "kuWait_plane"
+    },
+    {
+      "id": 8,
+      "from": "delhi",
+      "to": "bangluru",
+      "arrival": 13,
+      "departure": 14,
+      "flight_name": "oman_plane"
+    },
+    {
+      "id": 9,
+      "from": "delhi",
+      "to": "bangluru",
+      "arrival": 13,
+      "departure": 14,
+      "flight_name": "dubai_plane"
+    },
+    {
+      "id": 10,
+      "from": "mumbai",
+      "to": "delhi",
+      "arrival": 4,
+      "departure": 5,
+      "flight_name": "china_plane"
+    },
+    {
+      "id": 11,
+      "from": "mumbai",
+      "to": "delhi",
+      "arrival": 4,
+      "departure": 5,
+      "flight_name": "england_plane"
+    }
+  ],
+  "booked": [
+    {
+      "id": 1,
+      "from": "patna",
+      "to": "delhi",
+      "arrival": 10,
+      "departure": 11,
+      "flight_name": "Boing787"
+    },
+    {
+      "id": 2,
+      "from": "patna",
+      "to": "kolkata",
+      "arrival": 11,
+      "departure": 12,
+      "flight_name": "Boing98"
+    },
+    {
+      "id": 10,
+      "from": "mumbai",
+      "to": "delhi",
+      "arrival": 4,
+      "departure": 5,
+      "flight_name": "china_plane"
+    }
+  ]
+}

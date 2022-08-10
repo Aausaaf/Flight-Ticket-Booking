@@ -2,9 +2,9 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const { connectDB } = require('./database');
-const { postRouter } = require('./routes/book');
+const { bookRouter } = require('./routes/book');
 const { userRouter } = require('./routes/user');
-const { flightrouter } = require('./routes/flight');
+
 
 
 const app = express();  
@@ -16,9 +16,9 @@ app.use((req, res, next) => {
     console.log(`${req.method} ${req.path}`);
     next();
 });
-app.use(postRouter);
+app.use(bookRouter);
 app.use(userRouter);
-app.use(flightrouter)
+
 
 
 connectDB().then(()=>{

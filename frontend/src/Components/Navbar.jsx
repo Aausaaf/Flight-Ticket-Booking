@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
    <div className="navbar">
      <Link style={{marginLeft:"13vw"}} to="/" >Home</Link>
-     <Link to="">Booked</Link>
+     <Link to="/booked">Booked</Link>
      <Link to="" onClick={()=>{
         <Login/>
      }}>Login</Link>

@@ -3,19 +3,19 @@ import './App.css';
 import Googlelogin from './Components/Googlelogin';
 import Navbar from './Components/Navbar';
 import Example from './Components/Example';
-
+import Homepage from './Components/Homepage';
+import {Routes,Route} from 'react-router-dom'
+import Booked from './Components/Booked';
+import Signup from './Components/signup';
 function App() {
   return (
    <>
    <Navbar/>
-   <Googlelogin/>
-   <div style={{marginLeft:"-1.3vh"}} className="h">
-    
-   
-    <div className="div" style={{marginTop:"12.6vh"}}>
-    <Example></Example>
-    
-    </div></div>
+   <Signup/>
+   <Routes>
+    <Route path="/" element={<Homepage/>}/>
+    <Route path="/booked" element={<Booked/>}/>
+   </Routes>
    </>
   );
 }

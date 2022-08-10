@@ -1,12 +1,12 @@
 const express = require('express');
 const {  getPostsByUser,  createBook, getAllbooks, getBook } = require('../handlers/book');
 
-const postRouter = express.Router();
+const bookRouter = express.Router();
 
-postRouter.post('/createBook', createBook);
+bookRouter.post('/addBook', createBook);
 
-postRouter.get('/getAllbooks', getAllbooks);
-postRouter.get('/getPost/:title', getBook);
-postRouter.get('/getPostsByUser', getPostsByUser);
+bookRouter.get('/getAllbooks', getAllbooks);
+bookRouter.get('/getbook/:title', getBook);
+bookRouter.get('/getbookByUser', getPostsByUser);
 
-module.exports = {postRouter};
+module.exports = {bookRouter};
