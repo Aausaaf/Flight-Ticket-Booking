@@ -446,4 +446,54 @@ display: flex;
 {
   background-color: rgb(145, 11, 11);
 }
- 
+
+.signup
+{
+  width: 35vw;
+  margin: auto;
+  margin-top: 13vh;
+  background-color: black;
+  color: white;
+  border-radius: 1.3vw;
+  box-shadow: 0 0 2px 2px #fbfcff;
+  height: 65vh;
+}
+.signup h1
+{
+  text-align: center;
+  position: relative;
+  top: 4vh;
+  font-size: 3vw;
+  text-decoration: underline;
+  
+}
+.signup input
+{
+  width: 22vw;
+  height: 5vh;
+  border-radius: 0.5vw;
+  outline: none;
+  margin-top: 1.7vh;
+  margin-left: 13.5vh;
+}
+.signup_button
+{
+  width: 22.8vw;
+  height: 7vh;
+  background-color: red;
+  color: white;
+  font-size: 1.3vw;
+  border-radius: 1vw;
+  margin-top: 5vh;
+  margin-left: 13.5vh;
+  cursor: pointer;
+}
+.signup_button:hover
+{
+  background-color: rgb(190, 15, 15);
+}
+ .proute
+ {
+  text-align: center;
+  cursor: pointer;
+ }

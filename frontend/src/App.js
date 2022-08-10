@@ -7,14 +7,17 @@ import Homepage from './Components/Homepage';
 import {Routes,Route} from 'react-router-dom'
 import Booked from './Components/Booked';
 import Signup from './Components/signup';
+import Login from './Components/Login'
 function App() {
   return (
    <>
    <Navbar/>
-   <Signup/>
+  
    <Routes>
     <Route path="/" element={<Homepage/>}/>
     <Route path="/booked" element={<Booked/>}/>
+    <Route path='/signup' element={<Signup/>}/>
+    <Route path="/login" element={<Login/>}/>
    </Routes>
    </>
   );
